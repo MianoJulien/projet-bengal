@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon portfolio{% endblock %}
+
+{% block body %}
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Description</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Projets</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact</a>
+  </li>
+</ul>
+
+<div class="card m-5" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-8 m-auto mt-3">
+      <img src="./assets/cat.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8 m-auto">
+      <div class="card-body">
+        <h5 class="card-title">A propos du bengal</h5>
+        <p class="card-text">Le chat Bengal, véritable joyau parmi les félins, fascine par sa beauté sauvage et son élégance. Doté d'une robe aux motifs léopard, ce félin exotique séduit par ses traits distinctifs et ses yeux perçants. Originaire d'un croisement entre un chat domestique et un léopard d'Asie, le Bengal allie l'apparence sauvage à une personnalité sociable et énergique. Sa fourrure soyeuse, ornée de taches et de marbrures, témoigne de son héritage sauvage, tandis que son tempérament joueur en fait un compagnon aussi ludique que captivant. En somme, le chat Bengal incarne l'harmonie entre la nature sauvage et la complicité féline, ajoutant une touche d'exotisme et de charme à chaque foyer qu'il choisit d'habiter.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
